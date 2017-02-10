@@ -594,3 +594,75 @@
 	name = "scarf"
 	desc = "A stylish scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks."
 	icon_state = "whitescarf"
+
+//Rank briefcase
+/obj/item/weapon/storage/briefcase/enlisted_fleet_rank
+	name = "Fleet and Expeditionary Corps Enlisted Rank patch"
+	desc = "A briefcase containing spare rank pins for the Enlisted crewmen of SolGov Fleet or Expeditionary Corps"
+	icon_state = "briefcase"
+	item_state = "briefcase"
+	w_class = ITEM_SIZE_LARGE
+	max_storage_space = DEFAULT_LARGEBOX_STORAGE
+	can_hold = list(/obj/item/clothing/accessory/rank)
+	startswith = list(
+		/obj/item/clothing/accessory/rank/fleet/enlisted,
+		/obj/item/clothing/accessory/rank/fleet/enlisted,
+		/obj/item/clothing/accessory/rank/fleet/enlisted,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e2,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e2,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e2,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e3,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e3,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e3,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e4,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e4,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e4,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e5,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e5,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e5,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e6,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e6,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e6,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e7,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e7,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e7,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e8,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e8,
+		/obj/item/clothing/accessory/rank/fleet/enlisted/e8,
+		)
+
+
+/obj/item/weapon/storage/briefcase/marine_fleet_rank
+	name = "Marine Corps Enlisted Rank patch"
+	desc = "A briefcase containing spare rank pins for Enlisted Marines of the SolGov Marine Corps"
+	icon_state = "briefcase"
+	item_state = "briefcase"
+	w_class = ITEM_SIZE_LARGE
+	max_storage_space = DEFAULT_LARGEBOX_STORAGE
+	can_hold = list(/obj/item/clothing/accessory/rank)
+	startswith = list(
+		/obj/item/clothing/accessory/rank/marine/enlisted,
+		/obj/item/clothing/accessory/rank/marine/enlisted,
+		/obj/item/clothing/accessory/rank/marine/enlisted,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e2,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e2,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e2,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e3,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e3,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e3,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e4,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e4,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e4,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e5,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e5,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e5,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e6,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e6,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e6,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e7,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e7,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e7,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e8,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e8,
+		/obj/item/clothing/accessory/rank/marine/enlisted/e8,
+		)
