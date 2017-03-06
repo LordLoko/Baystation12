@@ -1050,3 +1050,55 @@
 					/obj/item/weapon/lipstick/jade = 100,
 					/obj/item/weapon/storage/wallet/poly = 600
 					)
+
+//Full rank dispenser
+/obj/machinery/vending/ranks
+	name = "Rank dispenser"
+	desc = "A military surplus machine full of ranks. It contains enslisted, comissioned and flag officer ranks of both Naval and Ground forces"
+	icon_state = "cart"
+	icon_deny = "cart-deny"
+	products = list(/obj/item/clothing/accessory/rank/fleet/enlisted = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e2 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e3 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e4 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e5 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e6 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e8 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e9 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e9_alt1 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e9_alt2 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e9_alt3 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e9_alt4 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/enlisted/e9_alt5 = 5,
+	                /obj/item/clothing/accessory/rank/fleet/officer = 3,
+	                /obj/item/clothing/accessory/rank/fleet/officer/o2 = 3,
+	                /obj/item/clothing/accessory/rank/fleet/officer/o3 = 3,
+	                /obj/item/clothing/accessory/rank/fleet/officer/o4 = 3,
+	                /obj/item/clothing/accessory/rank/fleet/officer/o5 = 3,
+	                /obj/item/clothing/accessory/rank/fleet/officer/o6 = 3,
+	                /obj/item/clothing/accessory/rank/fleet/flag = 1,
+	                /obj/item/clothing/accessory/rank/fleet/flag/o8 = 1,
+	                /obj/item/clothing/accessory/rank/fleet/flag/o9 = 1,
+	                /obj/item/clothing/accessory/rank/fleet/flag/o10 = 1,
+	                /obj/item/clothing/accessory/rank/marine/enlisted = 5,
+	                /obj/item/clothing/accessory/rank/marine/enlisted/e2 = 5,
+	                /obj/item/clothing/accessory/rank/marine/enlisted/e3 = 5,
+	                /obj/item/clothing/accessory/rank/marine/enlisted/e4 = 5,
+	                /obj/item/clothing/accessory/rank/marine/enlisted/e5 = 5,
+	                /obj/item/clothing/accessory/rank/marine/enlisted/e6 = 5,
+	                /obj/item/clothing/accessory/rank/marine/enlisted/e7 = 5,
+	                /obj/item/clothing/accessory/rank/marine/enlisted/e8 = 5,
+	                /obj/item/clothing/accessory/rank/marine/enlisted/e8_alt = 5,
+	                /obj/item/clothing/accessory/rank/marine/enlisted/e9_alt1 = 5,
+	                /obj/item/clothing/accessory/rank/marine/enlisted/e9_alt2 = 5,
+	                /obj/item/clothing/accessory/rank/marine/officer = 3,
+	                /obj/item/clothing/accessory/rank/marine/officer/o2 = 3,
+	                /obj/item/clothing/accessory/rank/marine/officer/o3 = 3,
+	                /obj/item/clothing/accessory/rank/marine/officer/o4 = 3,
+	                /obj/item/clothing/accessory/rank/marine/officer/o5 = 3,
+	                /obj/item/clothing/accessory/rank/marine/officer/o6 = 3,
+	                /obj/item/clothing/accessory/rank/marine/flag = 1,
+	                /obj/item/clothing/accessory/rank/marine/flag/o8 = 1,
+	                /obj/item/clothing/accessory/rank/marine/flag/o9 = 1,
+	                /obj/item/clothing/accessory/rank/marine/flag/o10 = 1,
+	                /obj/item/clothing/accessory/rank/marine/flag/o10_alt =1)
